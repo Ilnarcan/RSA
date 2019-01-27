@@ -1,0 +1,23 @@
+﻿Построение начато 25.11.2012 14:06:20.
+     1>Проект "C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\rsa\rsa.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\rsa.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt util.cpp
+         util.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\Debug\rsa.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\rsa.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\Debug\rsa.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\Debug\rsa.lib" /MACHINE:X86 Debug\main.obj
+         Debug\rsa.obj
+         Debug\util.obj
+         LINK : не найден или не выполнена сборка C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\Debug\rsa.exe при последней инкрементной компоновке; выполняется полная компоновка
+         rsa.vcxproj -> C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\Debug\rsa.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\Debug\rsa.exe;#1" /manifest Debug\rsa.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\rsa.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\rsa.lastbuildstate".
+     1>Построение проекта "C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\rsa\rsa.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.40

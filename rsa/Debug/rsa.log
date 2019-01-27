@@ -1,0 +1,45 @@
+﻿Построение начато 25.11.2012 21:22:10.
+     1>Проект "C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\rsa\rsa.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\rsa.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\mongol\desktop\афанасьева\lab_rsa\rsa\rsa\main.cpp(165): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371): см. объявление "sprintf"
+     1>c:\users\mongol\desktop\афанасьева\lab_rsa\rsa\rsa\main.cpp(168): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371): см. объявление "sprintf"
+     1>c:\users\mongol\desktop\афанасьева\lab_rsa\rsa\rsa\main.cpp(170): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110): см. объявление "strcat"
+     1>c:\users\mongol\desktop\афанасьева\lab_rsa\rsa\rsa\main.cpp(312): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
+     1>c:\users\mongol\desktop\афанасьева\lab_rsa\rsa\rsa\main.cpp(314): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
+     1>c:\users\mongol\desktop\афанасьева\lab_rsa\rsa\rsa\main.cpp(316): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
+     1>c:\users\mongol\desktop\афанасьева\lab_rsa\rsa\rsa\main.cpp(328): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253): см. объявление "fscanf"
+     1>c:\users\mongol\desktop\афанасьева\lab_rsa\rsa\rsa\main.cpp(340): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
+     1>c:\users\mongol\desktop\афанасьева\lab_rsa\rsa\rsa\main.cpp(342): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
+     1>c:\users\mongol\desktop\афанасьева\lab_rsa\rsa\rsa\main.cpp(344): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234): см. объявление "fopen"
+     1>c:\users\mongol\desktop\афанасьева\lab_rsa\rsa\rsa\main.cpp(355): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(253): см. объявление "fscanf"
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\Debug\rsa.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\rsa.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\Debug\rsa.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\Debug\rsa.lib" /MACHINE:X86 Debug\main.obj
+         Debug\rsa.obj
+         Debug\util.obj
+         LINK : не найден или не выполнена сборка C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\Debug\rsa.exe при последней инкрементной компоновке; выполняется полная компоновка
+         rsa.vcxproj -> C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\Debug\rsa.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\Debug\rsa.exe;#1" /manifest Debug\rsa.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\rsa.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\rsa.lastbuildstate".
+     1>Построение проекта "C:\Users\Mongol\Desktop\афанасьева\lab_rsa\rsa\rsa\rsa.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.94
